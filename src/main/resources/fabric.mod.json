@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "snowjanitor",
+  "version": "1.0.0",
+  "name": "Snow Janitor Villager",
+  "description": "Makes villagers clear snow with a shovel!",
+  "authors": [
+    "Player"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/snowjanitor/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.janitor.SnowJanitorMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.x",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
